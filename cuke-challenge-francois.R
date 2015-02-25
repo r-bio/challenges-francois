@@ -7,3 +7,4 @@ download.file("http://r-bio.github.io/data/holothuriidae-nomina-valid.csv",
 ## import data in R memory
 nom <- read.csv(file="data/holothuriidae-nomina-valid.csv",
                 stringsAsFactors=FALSE)
+species <- read.csv(file="data/holothuriidae.csv")
